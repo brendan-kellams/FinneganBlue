@@ -26,14 +26,6 @@ body {
   /* animation: change 4s; */
 }
 
-/* @keyframes change
-  from {background-color: deeppink;}
-  to {background-color: darkred;}
-} */
-
-#content:hover {
-  height: 15em;
-}
 
 #footer {
   margin-right: 0;
