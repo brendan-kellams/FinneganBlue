@@ -245,5 +245,14 @@ p {
   #member_1 img, #member_3 img, #member_5 img, #member_2 img, #member_4 img, #member_6 img {
     width: 300px;
     height: auto; } }
+@media screen and (max-width: 600px) {
+  #music_content {
+    padding: 0; } }
+@media screen and (min-width: 768px) {
+  #music_content {
+    margin-top: 15px; } }
+@media screen and (min-width: 1224px) {
+  #music_content {
+    margin-top: 15px; } }
 
 /*# sourceMappingURL=main.css.map */

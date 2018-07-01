@@ -4,13 +4,19 @@ $tablet-L: 1024px;
 $desktop: 1224px;
 
 @media screen and (max-width: $small-phone) {
-
+  #music_content {
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: $tablet) {
-
+    #music_content {
+        margin-top: 15px;
+    }
 }
 
 @media screen and (min-width: $desktop) {
-  
+    #music_content {
+        margin-top: 15px;
+    }
 }
