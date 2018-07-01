@@ -1,0 +1,92 @@
+@media only screen and (max-width: 600px) {
+    #nav_container {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        background-color: rgba(56, 85, 56, 0.6);
+        margin-bottom: 10px;
+    }
+
+    #navigation {
+        li {
+            list-style: none;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        li a {
+            text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            text-decoration: none;
+            color: #f0f0f0;
+            font-size: 13px;
+            padding-bottom: 2px;
+            padding: 4px;
+
+            &:hover {
+                background-color: rgba(120, 120, 120, 0.8);
+                border-radius: .5em;
+            }
+        }
+    }
+
+    .dropdown-menu {
+        background-color: rgba(120, 120, 120, 0.6);
+        text-align: center;
+        min-width: 5em;
+    }
+
+    .choice {
+        margin: 0;
+
+        &:hover {
+            background-color: rgba(56, 85, 56, 0.8);
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #nav_container {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        background-color: rgba(56, 85, 56, 0.6);
+    }
+
+    #navigation {
+        li {
+            list-style: none;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        li a {
+            text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            text-decoration: none;
+            color: #f0f0f0;
+            font-size: 28px;
+            padding-bottom: 2px;
+            padding: 5px;
+            margin: 0 5px 0;
+
+            &:hover {
+                background-color: rgba(120, 120, 120, 0.8);
+                border-radius: .5em;
+            }
+        }
+    }
+
+    #menu {
+        background-color: rgba(120, 120, 120, 0.6);
+        text-align: center;
+    }
+
+    .choice {
+        margin: 0;
+
+        &:hover {
+            background-color: rgba(56, 85, 56, 0.8);
+        }
+    }
+}

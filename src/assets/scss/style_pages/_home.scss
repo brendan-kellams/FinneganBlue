@@ -1,0 +1,47 @@
+@media only screen and (max-width: 600px) {
+    #home_content {
+        position: relative;
+        text-align: center;
+
+        img {
+            width: 100%;
+            padding: 15px;
+            border-radius: 20px;
+            transition: transform 300ms;
+
+            &:hover {
+                transform: rotate(180deg);
+            }
+        }
+
+        p {
+            color: white;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #home_content {
+        position: relative;
+        text-align: center;
+
+        img {
+            width: 50%;
+            padding: 15px;
+            border-radius: 20px;
+            transition: transform 300ms;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        p {
+            text-align: center;
+            margin-left: 150px;
+            margin-right: 150px;
+            color: white;
+            font-size: 30px;
+        }
+    }
+}
