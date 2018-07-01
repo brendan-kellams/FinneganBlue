@@ -7,14 +7,9 @@ p {
     text-align: center;
 }
 
-#bio-content {
-    display: flex;
-    width: 100%;
-}
-
 /* small phones */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $small-phone) {
     #member_1, #member_2, #member_3, #member_4, #member_5, #member_6 {
         display: flex;
         flex-direction: column;
@@ -31,36 +26,24 @@ p {
 
 // tablet
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: $tablet) {
+    #bio_content {
+        margin-top: 20px;
+    }
+
     #mem1, #mem3, #mem5 {
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 100%;
         margin: 0;
-    }
-    
-    #member_1, #member_3, #member_5 {
 
-        img {
-            margin: auto;
-            width: 200px;
-            height: auto;
-            border: 1px solid black;
-            border-radius: 50px;
+        p {
+            font-size: 25px;
         }
-
     }
 
-    #mem2, #mem4, #mem6 {
-        display: flex;
-        flex-flow: row-reverse;
-        align-items: center;
-        width: 100%;
-        margin: 0;
-    }
-    #member_2, #member_4, #member_6 {
-
+    #member_1, #member_3, #member_5 {
         img {
             display: flex;
             justify-content: center;
@@ -69,6 +52,40 @@ p {
             height: auto;
             border: 1px solid black;
             border-radius: 50px;
+        }
+    }
+
+    #mem2, #mem4, #mem6 {
+        display: flex;
+        flex-flow: row-reverse;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    #member_2, #member_4, #member_6 {
+        img {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            width: 200px;
+            height: auto;
+            border: 1px solid black;
+            border-radius: 50px;
+        }
+    }
+}
+
+// laptop/desktop
+@media screen and (min-width: $desktop) {
+    #member_1, #member_3, #member_5, #member_2, #member_4, #member_6 {
+        img {
+            width: 300px;
+            height: auto;
         }
     }
 }
