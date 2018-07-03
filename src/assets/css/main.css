@@ -278,5 +278,32 @@ p {
       #slide #carouselExampleIndicators .carousel-item img {
         border-radius: 15px;
         border: 1px solid black; } }
+@media screen and (max-width: 600px) {
+  .video-container {
+    margin: 10px; }
+    .video-container .videos {
+      width: 100%;
+      height: auto; } }
+@media screen and (min-width: 768px) {
+  .video-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 20px; } }
+@media screen and (min-width: 1024px) {
+  .video-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 20px; } }
+@media screen and (min-width: 1224px) {
+  .big-video-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px; } }
 
 /*# sourceMappingURL=main.css.map */

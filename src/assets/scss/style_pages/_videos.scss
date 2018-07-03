@@ -1,0 +1,45 @@
+$small-phone: 600px;
+$tablet: 768px;
+$tablet-L: 1024px;
+$desktop: 1224px;
+
+@media screen and (max-width: $small-phone) {
+    .video-container {
+        margin: 10px;
+
+        .videos {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .video-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: $tablet-L) {
+    .video-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .big-video-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
