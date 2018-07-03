@@ -254,5 +254,29 @@ p {
 @media screen and (min-width: 1224px) {
   #music_content {
     margin-top: 15px; } }
+@media screen and (max-width: 600px) {
+  #slide #carouselExampleIndicators {
+    margin: 15px; }
+    #slide #carouselExampleIndicators .carousel-item img {
+      border-radius: 15px;
+      border: 1.75px solid black;
+      padding: 0;
+      margin: 0; } }
+@media screen and (min-width: 768px) {
+  #carouselExampleIndicators {
+    margin: 25px; }
+    #carouselExampleIndicators .carousel-item img {
+      border-radius: 15px;
+      border: 1px solid black; } }
+@media screen and (min-width: 1224px) {
+  #slide {
+    display: flex;
+    justify-content: center; }
+    #slide #carouselExampleIndicators {
+      width: 50%;
+      margin: 25px; }
+      #slide #carouselExampleIndicators .carousel-item img {
+        border-radius: 15px;
+        border: 1px solid black; } }
 
 /*# sourceMappingURL=main.css.map */

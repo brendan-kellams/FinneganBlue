@@ -1,0 +1,53 @@
+$small-phone: 600px;
+$tablet: 768px;
+$tablet-L: 1024px;
+$desktop: 1224px;
+
+@media screen and (max-width: $small-phone) {
+    #slide {
+        #carouselExampleIndicators {
+            margin: 15px;
+
+            .carousel-item {
+                img {
+                    border-radius: 15px;
+                    border: 1.75px solid black;
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    #carouselExampleIndicators {
+        margin: 25px;
+
+        .carousel-item {
+            img {
+                border-radius: 15px;
+                border: 1px solid black;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    #slide {
+        display: flex;
+        justify-content: center;
+
+        #carouselExampleIndicators {
+            width: 50%;
+            margin: 25px;
+
+            .carousel-item {
+                img {
+                    border-radius: 15px;
+                    border: 1px solid black;
+                }
+            }
+        }
+    }
+}
