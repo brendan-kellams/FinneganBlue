@@ -306,5 +306,74 @@ p {
     justify-content: space-evenly;
     width: 100%;
     margin-top: 20px; } }
+@media screen and (max-width: 600px) {
+  h1 {
+    color: white;
+    text-align: center;
+    line-height: 1em;
+    padding: 10px;
+    font-size: 35px;
+    text-shadow: 2px 2px black; }
+
+  h2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px black; }
+
+  hr {
+    border: 2px solid white; } }
+@media screen and (min-width: 768px) {
+  h1 {
+    color: white;
+    text-align: center;
+    line-height: 1em;
+    padding: 10px;
+    font-size: 45px;
+    text-shadow: 2px 2px black; }
+
+  h2 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px black; }
+
+  hr {
+    border: 2px solid white; } }
+@media screen and (min-width: 1024px) {
+  h1 {
+    color: white;
+    text-align: center;
+    line-height: 1em;
+    padding: 10px;
+    font-size: 50px;
+    text-shadow: 2px 2px black; }
+
+  h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px black; }
+
+  hr {
+    border: 2px solid white; } }
+@media screen and (min-width: 1224px) {
+  h1 {
+    color: white;
+    text-align: center;
+    line-height: 1em;
+    padding: 10px;
+    font-size: 55px;
+    text-shadow: 2px 2px black; }
+
+  h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black; }
+
+  hr {
+    border: 5px solid white; } }
+h1 {
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */

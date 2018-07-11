@@ -1,0 +1,91 @@
+$small-phone: 600px;
+$tablet: 768px;
+$tablet-L: 1024px;
+$desktop: 1224px;
+
+@media screen and (max-width: $small-phone) {
+    h1 {
+        color: white;
+        text-align: center;
+        line-height: 1em;
+        padding: 10px;
+        font-size: 35px;
+        text-shadow: 2px 2px black;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        text-shadow: 1px 1px black;
+    }
+
+    hr {
+        border: 2px solid white;
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    h1 {
+        color: white;
+        text-align: center;
+        line-height: 1em;
+        padding: 10px;
+        font-size: 45px;
+        text-shadow: 2px 2px black;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        text-shadow: 1px 1px black;
+    }
+
+    hr {
+        border: 2px solid white;
+    }
+}
+
+@media screen and (min-width: $tablet-L) {
+  h1 {
+    color: white;
+    text-align: center;
+    line-height: 1em;
+    padding: 10px;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+}
+
+hr {
+    border: 2px solid white;
+}
+}
+
+@media screen and (min-width: $desktop) {
+    h1 {
+        color: white;
+        text-align: center;
+        line-height: 1em;
+        padding: 10px;
+        font-size: 55px;
+        text-shadow: 2px 2px black;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px black;
+    }
+
+    hr {
+        border: 5px solid white;
+    }
+}
