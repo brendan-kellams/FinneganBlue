@@ -36,6 +36,11 @@ router.get('/merch', function (req, res, next) {
   res.render('merch', { title: 'Finnegan Blue' });
 });
 
+/* GET merch page. */
+router.get('/error', function (req, res, next) {
+  res.render('error', { title: 'Finnegan Blue' });
+});
+
 
 
 module.exports = router;
