@@ -190,7 +190,8 @@ p {
       color: white;
       font-size: 30px; } }
 p {
-  text-align: center; }
+  text-align: center;
+  text-shadow: 1px 1px black; }
 
 /* small phones */
 @media screen and (max-width: 600px) {
