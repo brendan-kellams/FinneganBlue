@@ -38,7 +38,10 @@ p {
       margin-top: 0;
       padding: 0;
       width: 25px;
-      height: 25px; } }
+      height: 25px;
+      transition: transfrom 300ms; }
+      #footer img:hover {
+        transform: scale(0.85); } }
 @media only screen and (min-width: 768px) {
   #footer {
     margin-right: 0;
@@ -63,7 +66,10 @@ p {
       padding: 0;
       width: 50px;
       height: 50px;
-      padding-bottom: 5px; } }
+      padding-bottom: 5px;
+      transition: transform 300ms; }
+      #footer img:hover {
+        transform: scale(0.85); } }
 @media only screen and (max-width: 600px) {
   #header {
     position: relative;
@@ -168,7 +174,7 @@ p {
       border-radius: 20px;
       transition: transform 300ms; }
       #home_content img:hover {
-        transform: rotate(180deg); }
+        transform: scale(1.05); }
     #home_content p {
       color: white; } }
 @media only screen and (min-width: 768px) {
@@ -191,7 +197,7 @@ p {
       font-size: 30px; } }
 p {
   text-align: center;
-  text-shadow: 1px 1px black; }
+  text-shadow: 2px 2px black; }
 
 /* small phones */
 @media screen and (max-width: 600px) {
@@ -313,17 +319,32 @@ p {
     text-align: center;
     line-height: 1em;
     padding: 10px;
-    font-size: 35px;
+    font-size: 20px;
     text-shadow: 2px 2px black; }
 
-  h2 {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    text-shadow: 1px 1px black; }
-
-  hr {
-    border: 2px solid white; } }
+  #linkNames {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; }
+    #linkNames .contain {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px; }
+      #linkNames .contain #FBName {
+        width: 180px;
+        height: 50px;
+        border-radius: 50px;
+        transition: transform 300ms; }
+        #linkNames .contain #FBName:hover {
+          transform: scale(1.05); }
+      #linkNames .contain #InstaName {
+        width: 180px;
+        height: 50px;
+        border-radius: 50px;
+        transition: transform 300ms; }
+        #linkNames .contain #InstaName:hover {
+          transform: scale(1.05); } }
 @media screen and (min-width: 768px) {
   h1 {
     color: white;
@@ -333,14 +354,29 @@ p {
     font-size: 45px;
     text-shadow: 2px 2px black; }
 
-  h2 {
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    text-shadow: 1px 1px black; }
-
-  hr {
-    border: 2px solid white; } }
+  #linkNames {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; }
+    #linkNames .contain {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px; }
+      #linkNames .contain #FBName {
+        width: 360px;
+        height: 100px;
+        border-radius: 50px;
+        transition: transform 300ms; }
+        #linkNames .contain #FBName:hover {
+          transform: scale(1.05); }
+      #linkNames .contain #InstaName {
+        width: 360px;
+        height: 100px;
+        border-radius: 50px;
+        transition: transform 300ms; }
+        #linkNames .contain #InstaName:hover {
+          transform: scale(1.05); } }
 @media screen and (min-width: 1024px) {
   h1 {
     color: white;
@@ -348,32 +384,15 @@ p {
     line-height: 1em;
     padding: 10px;
     font-size: 50px;
-    text-shadow: 2px 2px black; }
-
-  h2 {
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    text-shadow: 1px 1px black; }
-
-  hr {
-    border: 2px solid white; } }
+    text-shadow: 2px 2px black; } }
 @media screen and (min-width: 1224px) {
   h1 {
     color: white;
     text-align: center;
     line-height: 1em;
     padding: 10px;
-    font-size: 55px;
-    text-shadow: 2px 2px black; }
-
-  h2 {
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px black; }
-
-  hr {
-    border: 5px solid white; } }
+    font-size: 40px;
+    text-shadow: 2px 2px black; } }
 h1 {
   color: white; }
 
