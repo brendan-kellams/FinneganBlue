@@ -166,8 +166,7 @@ p {
       background-color: rgba(56, 85, 56, 0.8); } }
 @media only screen and (max-width: 600px) {
   #home_content {
-    position: relative;
-    text-align: center; }
+    position: relative; }
     #home_content img {
       width: 100%;
       padding: 15px;
@@ -176,7 +175,10 @@ p {
       #home_content img:hover {
         transform: scale(1.05); }
     #home_content p {
-      color: white; } }
+      color: white;
+      font-size: 12px;
+      text-align: start;
+      text-indent: 15px; } }
 @media only screen and (min-width: 768px) {
   #home_content {
     position: relative;
@@ -190,11 +192,12 @@ p {
       #home_content img:hover {
         transform: scale(1.05); }
     #home_content p {
-      text-align: center;
       margin-left: 30px;
       margin-right: 30px;
       color: white;
-      font-size: 30px; } }
+      font-size: 30px;
+      text-align: start;
+      text-indent: 50px; } }
 p {
   text-align: center;
   text-shadow: 2px 2px black; }
@@ -335,14 +338,16 @@ p {
         width: 180px;
         height: 50px;
         border-radius: 50px;
-        transition: transform 300ms; }
+        transition: transform 300ms;
+        border: 1px solid black; }
         #linkNames .contain #FBName:hover {
           transform: scale(1.05); }
       #linkNames .contain #InstaName {
         width: 180px;
         height: 50px;
         border-radius: 50px;
-        transition: transform 300ms; }
+        transition: transform 300ms;
+        border: 1px solid black; }
         #linkNames .contain #InstaName:hover {
           transform: scale(1.05); } }
 @media screen and (min-width: 768px) {
@@ -367,14 +372,16 @@ p {
         width: 360px;
         height: 100px;
         border-radius: 50px;
-        transition: transform 300ms; }
+        transition: transform 300ms;
+        border: 2px solid black; }
         #linkNames .contain #FBName:hover {
           transform: scale(1.05); }
       #linkNames .contain #InstaName {
         width: 360px;
         height: 100px;
         border-radius: 50px;
-        transition: transform 300ms; }
+        transition: transform 300ms;
+        border: 2px solid black; }
         #linkNames .contain #InstaName:hover {
           transform: scale(1.05); } }
 @media screen and (min-width: 1024px) {
